@@ -12,7 +12,7 @@ count = 0
 while len(queue) != 0:
     while True:
         moved = False
-        for i in ra햣nge(1, len(queue)):
+        for i in range(1, len(queue)):
             if queue[0][1] < queue[i][1]:
                 queue.append(queue.pop(0))
                 moved = True
